@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D4FC3714E54CC1009D09BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D4FC3614E54CC1009D09BF /* Cocoa.framework */; };
+		10D4FC4114E54CC1009D09BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10D4FC3F14E54CC1009D09BF /* InfoPlist.strings */; };
+		10D4FC4314E54CC1009D09BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D4FC4214E54CC1009D09BF /* main.m */; };
+		10D4FC4714E54CC1009D09BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 10D4FC4514E54CC1009D09BF /* Credits.rtf */; };
+		10D4FC4A14E54CC1009D09BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D4FC4914E54CC1009D09BF /* AppDelegate.m */; };
+		10D4FC4D14E54CC2009D09BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D4FC4B14E54CC2009D09BF /* MainMenu.xib */; };
+		10D4FC5514E54CC2009D09BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D4FC5414E54CC2009D09BF /* SenTestingKit.framework */; };
+		10D4FC5614E54CC2009D09BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D4FC3614E54CC1009D09BF /* Cocoa.framework */; };
+		10D4FC5E14E54CC2009D09BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10D4FC5C14E54CC2009D09BF /* InfoPlist.strings */; };
+		10D4FC6114E54CC2009D09BF /* TwittorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D4FC6014E54CC2009D09BF /* TwittorrentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10D4FC5714E54CC2009D09BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10D4FC2914E54CC1009D09BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D4FC3114E54CC1009D09BF;
+			remoteInfo = Twittorrent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10D4FC3214E54CC1009D09BF /* Twittorrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twittorrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D4FC3614E54CC1009D09BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		10D4FC3914E54CC1009D09BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		10D4FC3A14E54CC1009D09BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		10D4FC3B14E54CC1009D09BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10D4FC3E14E54CC1009D09BF /* Twittorrent-Info.plist */ = {isa = PBXFileReference; path = "Twittorrent-Info.plist"; sourceTree = "<group>"; };
+		10D4FC4014E54CC1009D09BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10D4FC4214E54CC1009D09BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10D4FC4414E54CC1009D09BF /* Twittorrent-Prefix.pch */ = {isa = PBXFileReference; path = "Twittorrent-Prefix.pch"; sourceTree = "<group>"; };
+		10D4FC4614E54CC1009D09BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		10D4FC4814E54CC1009D09BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		10D4FC4914E54CC1009D09BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10D4FC4C14E54CC2009D09BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		10D4FC5314E54CC2009D09BF /* TwittorrentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwittorrentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D4FC5414E54CC2009D09BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		10D4FC5B14E54CC2009D09BF /* TwittorrentTests-Info.plist */ = {isa = PBXFileReference; path = "TwittorrentTests-Info.plist"; sourceTree = "<group>"; };
+		10D4FC5D14E54CC2009D09BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10D4FC5F14E54CC2009D09BF /* TwittorrentTests.h */ = {isa = PBXFileReference; path = TwittorrentTests.h; sourceTree = "<group>"; };
+		10D4FC6014E54CC2009D09BF /* TwittorrentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwittorrentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D4FC2F14E54CC1009D09BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D4FC3714E54CC1009D09BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D4FC4F14E54CC2009D09BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D4FC5514E54CC2009D09BF /* SenTestingKit.framework in Frameworks */,
+				10D4FC5614E54CC2009D09BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D4FC2714E54CC1009D09BF = {
+			isa = PBXGroup;
+			children = (
+				10D4FC3C14E54CC1009D09BF /* Twittorrent */,
+				10D4FC5914E54CC2009D09BF /* TwittorrentTests */,
+				10D4FC3514E54CC1009D09BF /* Frameworks */,
+				10D4FC3314E54CC1009D09BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10D4FC3314E54CC1009D09BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC3214E54CC1009D09BF /* Twittorrent.app */,
+				10D4FC5314E54CC2009D09BF /* TwittorrentTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10D4FC3514E54CC1009D09BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC3614E54CC1009D09BF /* Cocoa.framework */,
+				10D4FC5414E54CC2009D09BF /* SenTestingKit.framework */,
+				10D4FC3814E54CC1009D09BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10D4FC3814E54CC1009D09BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC3914E54CC1009D09BF /* AppKit.framework */,
+				10D4FC3A14E54CC1009D09BF /* CoreData.framework */,
+				10D4FC3B14E54CC1009D09BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		10D4FC3C14E54CC1009D09BF /* Twittorrent */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC4814E54CC1009D09BF /* AppDelegate.h */,
+				10D4FC4914E54CC1009D09BF /* AppDelegate.m */,
+				10D4FC4B14E54CC2009D09BF /* MainMenu.xib */,
+				10D4FC3D14E54CC1009D09BF /* Supporting Files */,
+			);
+			path = Twittorrent;
+			sourceTree = "<group>";
+		};
+		10D4FC3D14E54CC1009D09BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC3E14E54CC1009D09BF /* Twittorrent-Info.plist */,
+				10D4FC3F14E54CC1009D09BF /* InfoPlist.strings */,
+				10D4FC4214E54CC1009D09BF /* main.m */,
+				10D4FC4414E54CC1009D09BF /* Twittorrent-Prefix.pch */,
+				10D4FC4514E54CC1009D09BF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10D4FC5914E54CC2009D09BF /* TwittorrentTests */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC5F14E54CC2009D09BF /* TwittorrentTests.h */,
+				10D4FC6014E54CC2009D09BF /* TwittorrentTests.m */,
+				10D4FC5A14E54CC2009D09BF /* Supporting Files */,
+			);
+			path = TwittorrentTests;
+			sourceTree = "<group>";
+		};
+		10D4FC5A14E54CC2009D09BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D4FC5B14E54CC2009D09BF /* TwittorrentTests-Info.plist */,
+				10D4FC5C14E54CC2009D09BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10D4FC3114E54CC1009D09BF /* Twittorrent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D4FC6414E54CC2009D09BF /* Build configuration list for PBXNativeTarget "Twittorrent" */;
+			buildPhases = (
+				10D4FC2E14E54CC1009D09BF /* Sources */,
+				10D4FC2F14E54CC1009D09BF /* Frameworks */,
+				10D4FC3014E54CC1009D09BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twittorrent;
+			productName = Twittorrent;
+			productReference = 10D4FC3214E54CC1009D09BF /* Twittorrent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10D4FC5214E54CC2009D09BF /* TwittorrentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D4FC6714E54CC2009D09BF /* Build configuration list for PBXNativeTarget "TwittorrentTests" */;
+			buildPhases = (
+				10D4FC4E14E54CC2009D09BF /* Sources */,
+				10D4FC4F14E54CC2009D09BF /* Frameworks */,
+				10D4FC5014E54CC2009D09BF /* Resources */,
+				10D4FC5114E54CC2009D09BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10D4FC5814E54CC2009D09BF /* PBXTargetDependency */,
+			);
+			name = TwittorrentTests;
+			productName = TwittorrentTests;
+			productReference = 10D4FC5314E54CC2009D09BF /* TwittorrentTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10D4FC2914E54CC1009D09BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 10D4FC2C14E54CC1009D09BF /* Build configuration list for PBXProject "Twittorrent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10D4FC2714E54CC1009D09BF;
+			productRefGroup = 10D4FC3314E54CC1009D09BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10D4FC3114E54CC1009D09BF /* Twittorrent */,
+				10D4FC5214E54CC2009D09BF /* TwittorrentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D4FC3014E54CC1009D09BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D4FC4114E54CC1009D09BF /* InfoPlist.strings in Resources */,
+				10D4FC4714E54CC1009D09BF /* Credits.rtf in Resources */,
+				10D4FC4D14E54CC2009D09BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D4FC5014E54CC2009D09BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D4FC5E14E54CC2009D09BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D4FC5114E54CC2009D09BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D4FC2E14E54CC1009D09BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D4FC4314E54CC1009D09BF /* main.m in Sources */,
+				10D4FC4A14E54CC1009D09BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D4FC4E14E54CC2009D09BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D4FC6114E54CC2009D09BF /* TwittorrentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10D4FC5814E54CC2009D09BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10D4FC3114E54CC1009D09BF /* Twittorrent */;
+			targetProxy = 10D4FC5714E54CC2009D09BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10D4FC3F14E54CC1009D09BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D4FC4014E54CC1009D09BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10D4FC4514E54CC1009D09BF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D4FC4614E54CC1009D09BF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		10D4FC4B14E54CC2009D09BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D4FC4C14E54CC2009D09BF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		10D4FC5C14E54CC2009D09BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D4FC5D14E54CC2009D09BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10D4FC6214E54CC2009D09BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10D4FC6314E54CC2009D09BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10D4FC6514E54CC2009D09BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twittorrent/Twittorrent-Prefix.pch";
+				INFOPLIST_FILE = "Twittorrent/Twittorrent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10D4FC6614E54CC2009D09BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twittorrent/Twittorrent-Prefix.pch";
+				INFOPLIST_FILE = "Twittorrent/Twittorrent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10D4FC6814E54CC2009D09BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twittorrent.app/Contents/MacOS/Twittorrent";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twittorrent/Twittorrent-Prefix.pch";
+				INFOPLIST_FILE = "TwittorrentTests/TwittorrentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		10D4FC6914E54CC2009D09BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twittorrent.app/Contents/MacOS/Twittorrent";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twittorrent/Twittorrent-Prefix.pch";
+				INFOPLIST_FILE = "TwittorrentTests/TwittorrentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D4FC2C14E54CC1009D09BF /* Build configuration list for PBXProject "Twittorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D4FC6214E54CC2009D09BF /* Debug */,
+				10D4FC6314E54CC2009D09BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10D4FC6414E54CC2009D09BF /* Build configuration list for PBXNativeTarget "Twittorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D4FC6514E54CC2009D09BF /* Debug */,
+				10D4FC6614E54CC2009D09BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10D4FC6714E54CC2009D09BF /* Build configuration list for PBXNativeTarget "TwittorrentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D4FC6814E54CC2009D09BF /* Debug */,
+				10D4FC6914E54CC2009D09BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10D4FC2914E54CC1009D09BF /* Project object */;
+}
